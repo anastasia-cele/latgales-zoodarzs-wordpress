@@ -1,0 +1,59 @@
+$dark-green: #003636;
+$blue-green: #329d9c;
+$green: #56c596;
+$orange: #fbc78d;
+$yellow: #f9e2ae;
+$grey: #f2f3f4;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: $grey;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: "Titillium Web";
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    z-index: 9;
+    -webkit-text-stroke: 2px $dark-green;
+    line-height: 110px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a {
+    font-family: "Nunito";
+    font-weight: 300;
+    color: $dark-green;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+li,
+a {
+    text-transform: uppercase;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+p,
+span {
+    text-align: justify;
+    font-family: "Quicksand";
+    color: $dark-green;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
