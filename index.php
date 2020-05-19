@@ -41,7 +41,7 @@
                 </div>
             </div>
             <?php } else { ?> 
-                <div class="post">
+                <div class="post otherflex">
                 <div class="right othermargin">
                     <h2> <?php the_title(); ?> </h2>
                     <h3> <?php the_time('j. F, Y')?> </h3>
