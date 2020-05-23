@@ -101,4 +101,55 @@
 }
 
 @media only screen and (max-width: 800px) {
+    #footer {
+        li {
+            text-align: center;
+        }
+        .box {
+            .content {
+                padding: 75px 10%;
+            }
+        }
+        .top {
+            padding: 0 10%;
+            align-items: center;
+        }
+        .bot {
+            flex-wrap: wrap;
+            .left {
+                margin-left: 0;
+                width: 100%;
+                margin-bottom: 50px;
+                align-items: center;
+            }
+            .mid {
+                margin-left: 0;
+                width: 100%;
+                align-items: center;
+                margin-bottom: 50px;
+            }
+
+            .right {
+                margin-right: 0;
+                width: 100%;
+                align-items: center;
+            }
+        }
+        .social {
+            a {
+                margin: 0 10px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+}
+
+@media only screen and (max-width: 375px) {
+}
+@media only screen and (max-width: 325px) {
 }

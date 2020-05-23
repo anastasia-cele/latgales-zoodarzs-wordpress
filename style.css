@@ -292,6 +292,44 @@ span {
     width: 90%;
   }
 }
+@media only screen and (max-width: 800px) {
+  #footer li {
+    text-align: center;
+  }
+  #footer .box .content {
+    padding: 75px 10%;
+  }
+  #footer .top {
+    padding: 0 10%;
+    align-items: center;
+  }
+  #footer .bot {
+    flex-wrap: wrap;
+  }
+  #footer .bot .left {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  #footer .bot .mid {
+    margin-left: 0;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #footer .bot .right {
+    margin-right: 0;
+    width: 100%;
+    align-items: center;
+  }
+  #footer .social a {
+    margin: 0 10px;
+  }
+  #footer .social a img {
+    width: 100%;
+  }
+}
 .button {
   background: linear-gradient(91.75deg, #fbc78d 0%, #f9e2ae 100%);
   border-radius: 80px;
@@ -390,12 +428,15 @@ span {
   align-items: center;
   margin-left: 100px;
   padding-top: 75px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 #header img {
   height: 80%;
   position: absolute;
   right: 0;
-  top: 60px;
+  bottom: 100px;
 }
 #header .title {
   display: flex;
@@ -403,6 +444,7 @@ span {
   position: relative;
   align-items: flex-start;
   width: 55%;
+  margin-top: 75px;
 }
 #header .title .title-shadow {
   position: absolute;
@@ -493,6 +535,7 @@ span {
   }
   #header .title {
     width: 60%;
+    margin-top: 100px;
   }
   #header .title .title-shadow {
     top: 4px;
@@ -548,7 +591,6 @@ span {
   }
   #header img {
     height: 65%;
-    top: 100px;
   }
   #header .title .button a {
     font-size: 14px;
@@ -560,8 +602,7 @@ span {
 }
 @media only screen and (max-width: 1024px) {
   #header img {
-    height: 60%;
-    top: 135px;
+    height: 55%;
   }
   #header .title .button a {
     font-size: 12px;
@@ -606,14 +647,19 @@ span {
     margin-top: 50px;
     width: 100%;
   }
+  #header .title .title-shadow {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    top: 0;
+    left: 0;
+    padding: 3.5px 0 0 3.5px;
+  }
   #header img {
     height: auto;
     bottom: 20px;
-    top: auto;
-    width: 50%;
-  }
-  #header .title-shadow {
-    width: 100%;
+    height: 50%;
   }
 
   #posts .otherflex {
@@ -632,7 +678,7 @@ span {
 }
 @media only screen and (max-width: 425px) {
   #header img {
-    width: 90%;
+    height: 45%;
   }
 
   #posts .post .left img {
@@ -645,12 +691,12 @@ span {
   }
 }
 @media only screen and (max-width: 375px) {
+  #header img {
+    height: 40%;
+  }
   #header .title h2 {
     font-size: 14px;
     margin: 10px 0;
-  }
-  #header img {
-    width: 95%;
   }
 
   #jaunumi {

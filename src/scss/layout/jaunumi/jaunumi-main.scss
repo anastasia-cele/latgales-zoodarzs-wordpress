@@ -5,12 +5,15 @@
     align-items: center;
     margin-left: 100px;
     padding-top: 75px;
+    box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
 
     img {
         height: 80%;
         position: absolute;
         right: 0;
-        top: 60px;
+        bottom: 100px;
     }
 
     .title {
@@ -19,6 +22,7 @@
         position: relative;
         align-items: flex-start;
         width: 55%;
+        margin-top: 75px;
 
         .title-shadow {
             position: absolute;
