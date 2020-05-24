@@ -1,0 +1,109 @@
+#content {
+    display: flex;
+    width: 75%;
+    margin: 85px auto;
+    justify-content: space-between;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            img {
+                width: 75%;
+            }
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+
+            .top {
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        text-align: left;
+                    }
+                }
+                .right {
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        text-align: right;
+                    }
+                }
+            }
+
+            .bot {
+                margin-top: 15px;
+                span {
+                    letter-spacing: 1.5px;
+                }
+            }
+
+            span {
+                text-align: center;
+                margin-bottom: 5px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+
+#contact {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-right: 50px;
+        span {
+            margin-bottom: 15px;
+        }
+
+        input {
+            height: 45px;
+            margin-bottom: 15px;
+        }
+
+        textarea {
+            margin-bottom: 15px;
+            resize: none;
+            height: 40%;
+        }
+
+        .button {
+            width: fit-content;
+        }
+    }
+
+    .right {
+        display: flex;
+        position: relative;
+        img {
+                z-index: 8;
+        }
+        .back {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(86, 197, 150, 0.6) 60%;
+        }
+    }
+}

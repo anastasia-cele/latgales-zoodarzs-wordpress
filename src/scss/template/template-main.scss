@@ -57,3 +57,33 @@ span {
     font-size: 18px;
     line-height: 22px;
 }
+
+#title {
+    display: flex;
+    position: relative;
+    padding-top: 75px;
+    height: 315px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/leaf.png),
+        linear-gradient(92.24deg, rgba(251, 199, 141, 0.6) 0%, rgba(249, 226, 174, 0.6) 100%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .title-shadow {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+
+            h1 {
+                color: $blue-green;
+                -webkit-text-stroke: 0px;
+            }
+        }
+    }
+}
