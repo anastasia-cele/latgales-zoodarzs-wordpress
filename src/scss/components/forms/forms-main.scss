@@ -1,8 +1,12 @@
 .button {
     background: linear-gradient(91.75deg, $orange 0%, $yellow 100%);
     border-radius: 80px;
-    font-size: 14px;
+    
     padding: 10px 45px;
+
+    a {
+        font-size: 14px;
+    }
 }
 
 input, textarea {

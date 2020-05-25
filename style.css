@@ -88,14 +88,30 @@ span {
     font-size: 30px;
   }
 
-  p {
+  p, span {
     font-size: 16px;
+  }
+
+  #jaunumi {
+    height: 125px !important;
+  }
+
+  #title {
+    height: 225px;
+  }
+  #title .title .title-shadow {
+    top: 4px;
+    left: 4px;
   }
 }
 @media only screen and (max-width: 1200px) {
   h1 {
     font-size: 64px;
     line-height: 70px;
+  }
+
+  #title {
+    height: 200px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -106,15 +122,31 @@ span {
   p {
     font-size: 14px;
   }
+
+  #title {
+    height: 160px;
+  }
 }
 @media only screen and (max-width: 800px) {
   h1 {
     text-align: center;
   }
+
+  #title {
+    height: 210px;
+  }
+  #title .title .title-shadow {
+    top: 3px;
+    left: 3px;
+  }
 }
 @media only screen and (max-width: 425px) {
   h2 {
     font-size: 24px;
+  }
+
+  #title {
+    height: 200px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -125,6 +157,14 @@ span {
 
   h2 {
     font-size: 20px;
+  }
+
+  #jaunumi {
+    height: 100px !important;
+  }
+
+  #title {
+    height: 175px;
   }
 }
 #footer {
@@ -349,8 +389,10 @@ span {
 .button {
   background: linear-gradient(91.75deg, #fbc78d 0%, #f9e2ae 100%);
   border-radius: 80px;
-  font-size: 14px;
   padding: 10px 45px;
+}
+.button a {
+  font-size: 14px;
 }
 
 input, textarea {
@@ -580,10 +622,6 @@ input, textarea {
     height: 70%;
   }
 
-  #jaunumi {
-    height: 125px;
-  }
-
   #posts .post {
     margin: 100px 0;
   }
@@ -727,10 +765,6 @@ input, textarea {
     margin: 10px 0;
   }
 
-  #jaunumi {
-    height: 100px;
-  }
-
   #posts .post .left img {
     width: 225px;
     height: 225px;
@@ -747,12 +781,12 @@ input, textarea {
   display: flex;
   width: 75%;
   margin: 85px auto;
-  justify-content: space-between;
 }
 #content .item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 33%;
 }
 #content .item .icon {
   display: flex;
@@ -840,4 +874,81 @@ input, textarea {
   top: 10px;
   left: 10px;
   background: rgba(86, 197, 150, 0.6) 60%;
+}
+
+@media only screen and (max-width: 1440px) {
+  #content {
+    width: 80%;
+  }
+  #content .item .icon img {
+    width: 60%;
+  }
+  #content .item .text span {
+    margin-bottom: 3px;
+  }
+
+  #contact span {
+    margin-bottom: 10px;
+  }
+  #contact input {
+    margin-bottom: 10px;
+  }
+  #contact textarea {
+    margin-bottom: 10px;
+  }
+  #contact .right img {
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+  }
+  #contact .right .back {
+    top: 7px;
+    left: 7px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #contact {
+    flex-direction: column;
+  }
+  #contact .left {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #contact .left textarea {
+    height: 200px;
+  }
+  #contact .right img {
+    width: 100%;
+    height: auto;
+  }
+
+  #content {
+    width: 95%;
+  }
+  #content .item .text {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #content {
+    flex-direction: column;
+    margin: 50px auto;
+    width: 75%;
+  }
+  #content .item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #content .item .text {
+    width: 315px;
+  }
+
+  #contact {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #content .item .text {
+    width: 100%;
+  }
 }
