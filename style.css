@@ -68,10 +68,15 @@ span {
   flex-direction: column;
   position: relative;
 }
+#title .title h1 {
+  text-align: center;
+}
 #title .title .title-shadow {
   position: absolute;
   top: 5px;
   left: 5px;
+  width: 100%;
+  text-align: center;
 }
 #title .title .title-shadow h1 {
   color: #329d9c;
@@ -951,4 +956,74 @@ input, textarea {
   #content .item .text {
     width: 100%;
   }
+}
+#menu-animal {
+  display: flex;
+  width: 75%;
+  margin: 25px auto;
+  justify-content: space-between;
+}
+#menu-animal .btn {
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #003636;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto;
+}
+#gallery .column {
+  display: none;
+  width: 33%;
+  margin: 50px 0;
+}
+#gallery .column .content {
+  position: relative;
+  background-color: transparent;
+}
+#gallery .column .content :hover {
+  background-color: rgba(251, 199, 141, 0.6);
+  transition: 0.5s;
+}
+#gallery .column .content img {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+}
+#gallery .column .content .back {
+  display: flex;
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 10px;
+  left: 10px;
+  background: rgba(86, 197, 150, 0.6) 60%;
+  z-index: -1;
+}
+#gallery .column .content span {
+  display: none;
+  position: absolute;
+  font-family: "Nunito";
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  padding-top: 150px;
+}
+
+.show {
+  display: flex !important;
 }

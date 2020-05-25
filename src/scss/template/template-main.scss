@@ -75,14 +75,20 @@ span {
         display: flex;
         flex-direction: column;
         position: relative;
+        h1 {
+            text-align: center;
+        }
         .title-shadow {
             position: absolute;
             top: 5px;
             left: 5px;
+            width: 100%;
+            text-align: center;
 
             h1 {
                 color: $blue-green;
                 -webkit-text-stroke: 0px;
+                
             }
         }
     }
