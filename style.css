@@ -978,17 +978,19 @@ input, textarea {
 #gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
+  width: 87%;
   margin: auto;
 }
 #gallery .column {
   display: none;
+  justify-content: center;
   width: 33%;
   margin: 50px 0;
 }
 #gallery .column .content {
   position: relative;
   background-color: transparent;
+  height: auto;
 }
 #gallery .column .content :hover {
   background-color: rgba(251, 199, 141, 0.6);
@@ -996,14 +998,14 @@ input, textarea {
 }
 #gallery .column .content img {
   object-fit: cover;
-  width: 350px;
-  height: 350px;
+  width: 325px;
+  height: 325px;
 }
 #gallery .column .content .back {
   display: flex;
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 325px;
   top: 10px;
   left: 10px;
   background: rgba(86, 197, 150, 0.6) 60%;
@@ -1017,13 +1019,123 @@ input, textarea {
   line-height: 40px;
   text-align: center;
   left: 0;
-  height: 200px;
+  height: 100%;
   width: 100%;
   bottom: 0;
   top: 0;
-  padding-top: 150px;
+  padding-top: 40%;
+  box-sizing: border-box;
 }
 
 .show {
   display: flex !important;
+}
+
+@media only screen and (max-width: 1440px) {
+  #gallery {
+    width: 85%;
+  }
+  #gallery .column {
+    margin: 50px 0 35px 0;
+  }
+  #gallery .column .content span {
+    font-size: 32px;
+  }
+  #gallery .column .content img {
+    width: 275px;
+    height: 275px;
+  }
+  #gallery .column .content .back {
+    height: 275px;
+    top: 7px;
+    left: 7px;
+  }
+
+  #menu-animal .btn {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #gallery {
+    width: 84%;
+  }
+  #gallery .column {
+    margin: 50px 0 5px 0;
+  }
+  #gallery .column .content img {
+    width: 235px;
+    height: 235px;
+  }
+  #gallery .column .content .back {
+    height: 235px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #gallery {
+    width: 75%;
+  }
+  #gallery .column {
+    width: 50%;
+  }
+  #gallery .column .content img {
+    width: 275px;
+    height: 275px;
+  }
+  #gallery .column .content .back {
+    height: 275px;
+  }
+
+  #menu-animal {
+    width: 64%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #gallery {
+    width: 95%;
+  }
+  #gallery .column {
+    margin: 25px 0 10px 0;
+  }
+  #gallery .column .content span {
+    font-size: 26px;
+    padding-top: 20%;
+  }
+  #gallery .column .content img {
+    width: 190px;
+    height: 190px;
+  }
+  #gallery .column .content .back {
+    height: 190px;
+  }
+
+  #menu-animal {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 25px 0 0 0;
+  }
+  #menu-animal .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #gallery .column {
+    width: 100%;
+  }
+  #gallery .column .content img {
+    width: 250px;
+    height: 250px;
+  }
+  #gallery .column .content .back {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #gallery .column .content img {
+    width: 200px;
+    height: 200px;
+  }
+  #gallery .column .content .back {
+    height: 200px;
+  }
 }

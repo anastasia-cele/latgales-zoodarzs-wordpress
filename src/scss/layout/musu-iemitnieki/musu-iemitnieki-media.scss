@@ -1,17 +1,137 @@
 @media only screen and (max-width: 1440px) {
+    #gallery {
+        width: 85%;
+        .column {
+            margin: 50px 0 35px 0;
+            .content {
+                span {
+                    font-size: 32px;
+                }
+                img {
+                    width: 275px;
+                    height: 275px;
+                }
+
+                .back {
+                    height: 275px;
+                    top: 7px;
+                left: 7px;
+                }
+            }
+        }
+    }
+    #menu-animal {
+        .btn {
+            font-size: 12px;
+        }
+    }
 }
 
 @media only screen and (max-width: 1200px) {
+    #gallery {
+        width: 84%;
+        .column {
+            margin: 50px 0 5px 0;
+            .content {
+                img {
+                    width: 235px;
+                    height: 235px;
+                }
+
+                .back {
+                    height: 235px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 1024px) {
+    #gallery {
+        width: 75%;
+        .column {
+            width: 50%;
+            
+            .content {
+                img {
+                    width: 275px;
+                    height: 275px;
+                }
+
+                .back {
+                    height: 275px;
+                }
+            }
+        }
+    }
+    #menu-animal {
+        width: 64%;
+    }
 }
 
 @media only screen and (max-width: 800px) {
+    #gallery {
+        width: 95%;
+        .column {
+            margin: 25px 0 10px 0;
+            .content {
+                span {
+                    font-size: 26px;
+                    padding-top: 20%;
+                }
+                img {
+                    width: 190px;
+                    height: 190px;
+                }
+
+                .back {
+                    height: 190px;
+                }
+            }
+        }
+    }
+    #menu-animal {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 25px 0 0 0;
+        .btn {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
 }
 @media only screen and (max-width: 425px) {
+    #gallery {
+        .column {
+            width: 100%;
+            .content {
+                img {
+                    width: 250px;
+                    height: 250px;
+                }
+
+                .back {
+                    height: 250px;
+                }
+            }
+        }
+    }
 }
 @media only screen and (max-width: 375px) {
+    #gallery {
+        .column {
+            .content {
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+
+                .back {
+                    height: 200px;
+                }
+            }
+        }
+    }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 325px) {
 }
