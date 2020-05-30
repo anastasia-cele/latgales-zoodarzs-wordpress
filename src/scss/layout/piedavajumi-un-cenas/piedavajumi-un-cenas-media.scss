@@ -1,11 +1,105 @@
 @media only screen and (max-width: 1440px) {
+    #piedavajumi {
+        .item {
+            .mid {
+                margin: 0 50px;
+                .title {
+                    margin-bottom: 20px;
+                }
+            }
+            .left {
+                img {
+                    object-fit: cover;
+                    width: 250px;
+                    height: 250px;
+                }
+                .back {
+                    width: 250px;
+                    height: 250px;
+                    top: 7px;
+                    left: 7px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 1200px) {
+    #piedavajumi {
+        .item {
+            .right {
+                width: 30%;
+            }
+            .mid {
+                .title {
+                    h2 {
+                        font-size: 26px;
+                    }
+                }
+            }
+            .left {
+                img {
+                    object-fit: cover;
+                    width: 225px;
+                    height: 225px;
+                }
+                .back {
+                    width: 225px;
+                    height: 225px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 1024px) {
+    #piedavajumi {
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .item {
+            width: 50%;
+            flex-direction: column;
+
+            .mid {
+                margin: 25px 0;
+                width: 85%;
+                .title {
+                    height: 90px;
+                }
+                .text {
+                    height: 200px;
+                }
+            }
+
+            .right {
+                width: 85%;
+
+                .bezmaksas {
+                    text-align: left;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 800px) {
+    #piedavajumi {
+        .item {
+            width: 100%;
+
+            .mid {
+                width: 100%;
+                .title {
+                    height: auto;
+                }
+                .text {
+                    height: auto;
+                }
+            }
+            .right {
+                width: 100%;
+            }
+        }
+    }
 }

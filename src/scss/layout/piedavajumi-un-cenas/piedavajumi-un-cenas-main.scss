@@ -1,0 +1,63 @@
+#piedavajumi {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+
+    .item {
+        display: flex;
+        margin-top: 75px;
+        position: relative;
+
+        .back {
+            display: flex;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(86, 197, 150, 0.6) 60%;
+            z-index: -1;
+        }
+
+        .mid {
+            display: flex;
+            flex-direction: column;
+            margin: 0 75px;
+            justify-content: center;
+            width: 40%;
+
+            .title {
+                margin-bottom: 25px;
+            }
+            .text {
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .right {
+            display: flex;
+            height: 100%;
+            margin: auto 0;
+            width: 26%;
+            justify-content: space-between;
+            .cilveki {
+                display: flex;
+                flex-direction: column;
+                margin-right: 50px;
+            }
+            .cenas {
+                display: flex;
+                flex-direction: column;
+            }
+            .bezmaksas {
+                width: 100%;
+    text-align: right;
+            }
+        }
+    }
+}

@@ -46,7 +46,7 @@ span {
   text-align: justify;
   font-family: "Quicksand";
   color: #003636;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
 }
@@ -73,8 +73,8 @@ span {
 }
 #title .title .title-shadow {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 4px;
+  left: 4px;
   width: 100%;
   text-align: center;
 }
@@ -103,10 +103,6 @@ span {
 
   #title {
     height: 225px;
-  }
-  #title .title .title-shadow {
-    top: 4px;
-    left: 4px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1233,5 +1229,143 @@ input, textarea {
     margin: auto;
     text-align: center;
     margin-top: 50px;
+  }
+}
+#piedavajumi {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+}
+#piedavajumi .item {
+  display: flex;
+  margin-top: 75px;
+  position: relative;
+}
+#piedavajumi .item .back {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(86, 197, 150, 0.6) 60%;
+  z-index: -1;
+}
+#piedavajumi .item .mid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 75px;
+  justify-content: center;
+  width: 40%;
+}
+#piedavajumi .item .mid .title {
+  margin-bottom: 25px;
+}
+#piedavajumi .item .mid .text {
+  display: flex;
+  flex-direction: column;
+}
+#piedavajumi .item .mid .text span {
+  margin-bottom: 15px;
+}
+#piedavajumi .item .right {
+  display: flex;
+  height: 100%;
+  margin: auto 0;
+  width: 26%;
+  justify-content: space-between;
+}
+#piedavajumi .item .right .cilveki {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+#piedavajumi .item .right .cenas {
+  display: flex;
+  flex-direction: column;
+}
+#piedavajumi .item .right .bezmaksas {
+  width: 100%;
+  text-align: right;
+}
+
+@media only screen and (max-width: 1440px) {
+  #piedavajumi .item .mid {
+    margin: 0 50px;
+  }
+  #piedavajumi .item .mid .title {
+    margin-bottom: 20px;
+  }
+  #piedavajumi .item .left img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+  }
+  #piedavajumi .item .left .back {
+    width: 250px;
+    height: 250px;
+    top: 7px;
+    left: 7px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #piedavajumi .item .right {
+    width: 30%;
+  }
+  #piedavajumi .item .mid .title h2 {
+    font-size: 26px;
+  }
+  #piedavajumi .item .left img {
+    object-fit: cover;
+    width: 225px;
+    height: 225px;
+  }
+  #piedavajumi .item .left .back {
+    width: 225px;
+    height: 225px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #piedavajumi {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  #piedavajumi .item {
+    width: 50%;
+    flex-direction: column;
+  }
+  #piedavajumi .item .mid {
+    margin: 25px 0;
+    width: 85%;
+  }
+  #piedavajumi .item .mid .title {
+    height: 90px;
+  }
+  #piedavajumi .item .mid .text {
+    height: 200px;
+  }
+  #piedavajumi .item .right {
+    width: 85%;
+  }
+  #piedavajumi .item .right .bezmaksas {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #piedavajumi .item {
+    width: 100%;
+  }
+  #piedavajumi .item .mid {
+    width: 100%;
+  }
+  #piedavajumi .item .mid .title {
+    height: auto;
+  }
+  #piedavajumi .item .mid .text {
+    height: auto;
+  }
+  #piedavajumi .item .right {
+    width: 100%;
   }
 }
