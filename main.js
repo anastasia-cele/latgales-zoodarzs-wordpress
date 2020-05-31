@@ -54,3 +54,26 @@ $( "#gallery .column .content" ).hover(
     $("span", this).css('display', 'none');
   }
 );
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+let navHeight = 0;
+if (window.width > 1440) {
+    navHeight = 75;
+} else {
+    navHeight = 55;
+}
+
+$('#header .title .button a').click(function (event) {
+    event.preventDefault();
+    let link = $(this).attr("href");
+    $('html, body').animate({
+        scrollTop: $(link).offset().top - navHeight
+    }, 800);
+})

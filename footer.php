@@ -5,7 +5,7 @@
             <span>Piesakies Latgales Zoodārza jaunumiem:</span>
             <input type="email" name="email" id="email" placeholder="E-pasts">
             <div class="bot-button">
-                <a href="">pieteikties</a>
+                <a href="" type=”submit”>pieteikties</a>
             </div>
         </div>
     </div>
@@ -38,9 +38,9 @@
         <div class="right">
             <span>Seko mums</span>
             <div class="social">
-                <a href=""><img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/facebook.png" alt=""></a>
-                <a href=""><img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/draugiem.png" alt=""></a>
-                <a href=""><img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/tripadvisor.png" alt=""></a>
+                <a href="https://www.facebook.com/LatgalesZoo/" target="_blank"><img src="../wp-content/themes/latgales-zoodarzs/public/img/facebook.png" alt=""></a>
+                <a href="https://www.draugiem.lv/latgaleszoo/" target="_blank"><img src="../wp-content/themes/latgales-zoodarzs/public/img/draugiem.png" alt=""></a>
+                <a href="https://www.tripadvisor.ru/Attraction_Review-g274962-d3823499-Reviews-Latgale_Zoological_Garden-Daugavpils_Latgale_Region.html" target="_blank"><img src="../wp-content/themes/latgales-zoodarzs/public/img/tripadvisor.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <!--JS-->
-<script src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/main.js"></script>
+<script src="../wp-content/themes/latgales-zoodarzs/main.js"></script>
 </body>
 
 </html>

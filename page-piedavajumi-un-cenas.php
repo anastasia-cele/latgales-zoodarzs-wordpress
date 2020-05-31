@@ -12,7 +12,7 @@
 <div id="piedavajumi">
     <div class="item">
         <div class="left">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/cenas/1.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/cenas/1.png" alt="">
             <div class="back"></div>
         </div>
         <div class="mid">
@@ -43,7 +43,7 @@
 
     <div class="item">
         <div class="left">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/cenas/2.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/cenas/2.png" alt="">
             <div class="back"></div>
         </div>
         <div class="mid">
@@ -76,7 +76,7 @@
 
     <div class="item">
         <div class="left">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/cenas/3.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/cenas/3.png" alt="">
             <div class="back"></div>
         </div>
         <div class="mid">
@@ -107,7 +107,7 @@
 
     <div class="item">
         <div class="left">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/cenas/4.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/cenas/4.png" alt="">
             <div class="back"></div>
         </div>
         <div class="mid">
@@ -139,7 +139,7 @@
 
     <div class="item">
         <div class="left">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/cenas/5.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/cenas/5.png" alt="">
             <div class="back"></div>
         </div>
         <div class="mid">
@@ -160,7 +160,7 @@
 
     <div class="item">
         <div class="left">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/cenas/6.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/cenas/6.png" alt="">
             <div class="back"></div>
         </div>
         <div class="mid">
@@ -182,7 +182,7 @@
 
     <div class="item">
         <div class="left">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/cenas/7.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/cenas/7.png" alt="">
             <div class="back"></div>
         </div>
         <div class="mid">

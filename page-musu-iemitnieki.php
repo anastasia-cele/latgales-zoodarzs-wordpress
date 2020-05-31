@@ -23,126 +23,126 @@
 <div id="gallery">
     <div class="column rapuli">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/1.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/1.jpg">
             <div class="back"></div>
             <span>Bruņurupucis vidusāzijas</span>
         </div>
     </div>
     <div class="column rapuli">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/2.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/2.jpg">
             <div class="back"></div>
             <span>Sarkanausainais bruņurupucis</span>
         </div>
     </div>
     <div class="column rapuli">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/3.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/3.jpg">
             <div class="back"></div>
             <span>Purva bruņurupucis</span>
         </div>
     </div>
     <div class="column zirnekli">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/4.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/4.jpg">
             <div class="back"></div>
             <span>Zirneklis putnēdājs</span>
         </div>
     </div>
     <div class="column zirnekli">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/5.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/5.jpg">
             <div class="back"></div>
             <span>Skorpions imperatora</span>
         </div>
     </div>
     <div class="column kukaini">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/6.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/6.jpg">
             <div class="back"></div>
             <span>Prusaks brazīlijas</span>
         </div>
     </div>
     <div class="column kukaini">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/7.jpeg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/7.jpeg">
             <div class="back"></div>
             <span>Madagaskaras šņācošais prusaks</span>
         </div>
     </div>
     <div class="column kukaini">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/8.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/8.jpg">
             <div class="back"></div>
             <span>Prusaks turkmēnijas</span>
         </div>
     </div>
     <div class="column kukaini">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/9.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/9.jpg">
             <div class="back"></div>
             <span>Lielais Jaungvinejas zarkukainis</span>
         </div>
     </div>
     <div class="column putni">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/10.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/10.jpg">
             <div class="back"></div>
             <span>Žako sarkanastes</span>
         </div>
     </div>
     <div class="column putni">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/11.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/11.jpg">
             <div class="back"></div>
             <span>Krāmera papagailis</span>
         </div>
     </div>
     <div class="column putni">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/12.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/12.jpg">
             <div class="back"></div>
             <span>Zebru amadīns</span>
         </div>
     </div>
     <div class="column abinieki">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/13.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/13.jpg">
             <div class="back"></div>
             <span>Jūras krupis</span>
         </div>
     </div>
     <div class="column abinieki">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/14.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/14.jpg">
             <div class="back"></div>
             <span>Austrālijas kokvarde</span>
         </div>
     </div>
     <div class="column abinieki">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/15.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/15.jpg">
             <div class="back"></div>
             <span>Aksolotls</span>
         </div>
     </div>
     <div class="column zivis">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/16.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/16.jpg">
             <div class="back"></div>
             <span>Zelta zivtiņas</span>
         </div>
     </div>
     <div class="column zivis">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/17.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/17.jpg">
             <div class="back"></div>
             <span>Koi</span>
         </div>
     </div>
     <div class="column zivis">
         <div class="content">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gallery/18.jpg">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/gallery/18.jpg">
             <div class="back"></div>
             <span>Gupijas</span>
         </div>

@@ -57,6 +57,21 @@
             }
         }
     }
+
+    .singlepost {
+        .top {
+            .image {
+                img {
+                    height: 350px;
+                }
+                .back {
+                    top: 7px;
+                    left: 7px;
+                }
+            }
+
+        }
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -124,6 +139,12 @@
             }
         }
     }
+
+    .singlepost {
+        .bot {
+            margin-top: 50px;
+        }
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -169,6 +190,16 @@
             }
         }
     }
+
+    .singlepost {
+        .top {
+            .image {
+                img {
+                    height: 300px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -187,6 +218,16 @@
                 .back {
                     width: 250px;
                     height: 250px;
+                }
+            }
+        }
+    }
+
+    .singlepost {
+        .top {
+            .image {
+                img {
+                    height: 275px;
                 }
             }
         }
@@ -220,6 +261,16 @@
             .right {
                 h3 {
                     font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .singlepost {
+        .top {
+            .image {
+                img {
+                    height: 250px;
                 }
             }
         }

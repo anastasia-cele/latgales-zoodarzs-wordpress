@@ -9,9 +9,20 @@
     .logo {
         display: flex;
         align-items: center;
-        img {
-            height: 65%;
-            margin-left: 100px;
+
+        .nav-button {
+            display: flex;
+            height: 100%;
+
+            a {
+                display: flex;
+                height: 100%;
+                align-items: center;
+                img {
+                    height: 65%;
+                    margin-left: 100px;
+                }
+            }
         }
     }
     ul {
@@ -20,10 +31,18 @@
         margin-right: 100px;
         li {
             margin-left: 35px;
+            a {
+                :hover {
+                    border-bottom: 1px solid $dark-green;
+                }
+            }
         }
     }
 
-    .hamburger {
+    #mySidenav {
+        width: 0;
+    }
+    span {
         display: none;
     }
 }

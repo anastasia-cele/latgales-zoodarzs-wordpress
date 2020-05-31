@@ -12,7 +12,7 @@
 <div id="content">
     <div class="item">
         <div class="icon">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/location.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/location.png" alt="">
         </div>
         <div class="text">
             <span>Latgales zoodārzs</span>
@@ -22,7 +22,7 @@
     </div>
     <div class="item">
         <div class="icon">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/time.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/time.png" alt="">
         </div>
         <div class="text">
             <div class="top">
@@ -52,7 +52,7 @@
     </div>
     <div class="item">
         <div class="icon">
-            <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/phone.png" alt="">
+            <img src="../wp-content/themes/latgales-zoodarzs/public/img/phone.png" alt="">
         </div>
         <div class="text">
             <span><b>Tālrunis:</b> 65 426 789</span>
@@ -74,11 +74,11 @@
         <span>Ziņa</span>
         <textarea id="zina"></textarea>
         <div class="button">
-            <a href="">sūtīt</a>
+            <a href="" type=”submit”>sūtīt</a>
         </div>
     </div>
     <div class="right">
-        <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/map.png" alt="">
+        <img src="../wp-content/themes/latgales-zoodarzs/public/img/map.png" alt="">
          <div class="back"></div>
     </div>
 </div>

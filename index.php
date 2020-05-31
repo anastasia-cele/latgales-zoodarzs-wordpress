@@ -3,7 +3,7 @@
 <main>
     <!--Header-->
     <div id="header">        
-        <img src="http://localhost/wordpress/wp-content/themes/latgales-zoodarzs/public/img/gecko.png" alt="">
+        <img src="../wp-content/themes/latgales-zoodarzs/public/img/gecko.png" alt="">
         <div class="title">
             <h1>Latgales zoodārzs</h1>
             <div class="title-shadow">

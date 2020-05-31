@@ -26,3 +26,4 @@ add_filter('excerpt_more', 'new_excerpt_more');
 add_theme_support( 'post-thumbnails' );
 
 ?>
+
