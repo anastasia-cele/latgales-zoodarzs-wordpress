@@ -21,7 +21,7 @@
             </div>
             <div class="text">
                 <span>Jūs varat apmeklēt zoodārzu no 10.00 līdz 18.00.</span>
-                <span>Nav apmeklēšanas: pirmdien, otrdien un Vāļsts svētkos. Šīs dienās notiek darbs ar
+                <span>Nav apmeklēšanas: pirmdien, otrdien un Vālsts svētkos. Šīs dienās notiek darbs ar
                     dzīvniekiem.</span>
             </div>
         </div>

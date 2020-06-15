@@ -42,7 +42,8 @@ a {
 }
 
 p,
-span {
+span,
+.wpforms-field-label {
   text-align: justify;
   font-family: "Quicksand";
   color: #003636;
@@ -58,7 +59,7 @@ span {
   height: 315px;
   align-items: center;
   justify-content: center;
-  background-image: url(../latgales-zoodarzs/public/img/leaf.png), linear-gradient(92.24deg, rgba(251, 199, 141, 0.6) 0%, rgba(249, 226, 174, 0.6) 100%);
+  background-image: url("../latgales-zoodarzs/public/img/leaf.png"), linear-gradient(92.24deg, rgba(251, 199, 141, 0.6) 0%, rgba(249, 226, 174, 0.6) 100%);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
@@ -81,6 +82,15 @@ span {
 #title .title .title-shadow h1 {
   color: #329d9c;
   -webkit-text-stroke: 0px;
+}
+
+.wpforms-confirmation-container-full {
+  background: none !important;
+  border: none !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -184,29 +194,50 @@ span {
   height: 450px;
   left: 12.5%;
   top: -75px;
+  margin-bottom: 0;
 }
-#footer .box .content {
+#footer .box .wpforms-validate {
   display: flex;
   flex-direction: column;
-  padding: 125px 100px;
+  padding: 0 100px;
+  margin: auto;
   width: 100%;
 }
-#footer .box .content span {
+#footer .box .wpforms-validate .wpforms-field-label {
   font-family: "Nunito";
   font-size: 24px;
   margin-bottom: 50px;
+  font-weight: 300;
+  line-height: 30px;
 }
-#footer .box .content .bot-button {
+#footer .box .wpforms-validate input {
+  max-width: 100%;
+  height: 55px;
+  border: 1px solid #003636;
+  background: none;
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(0, 54, 54, 0.6);
+  padding-left: 10px;
+  outline: none;
+  border-radius: 0;
+}
+#footer .box .wpforms-validate button {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 55px;
   background: #003636;
   margin-top: 15px;
-}
-#footer .box .content .bot-button a {
+  width: 100%;
   color: #fbc78d;
   font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Nunito";
+  font-weight: 300;
+  letter-spacing: 2px;
+  border: none;
 }
 #footer span {
   font-weight: 600;
@@ -289,27 +320,25 @@ span {
   #footer .box {
     height: 350px;
   }
-  #footer .box .content {
-    padding: 105px 70px;
+  #footer .box .wpforms-validate {
+    padding: 0 70px;
   }
-  #footer .box .content span {
+  #footer .box .wpforms-validate .wpforms-field-label {
     font-size: 16px;
     margin-bottom: 20px;
   }
-  #footer .box .content input {
+  #footer .box .wpforms-validate input {
     height: 40px;
     font-size: 16px;
   }
-  #footer .box .content .bot-button {
+  #footer .box .wpforms-validate button {
     height: 42px;
     margin-top: 10px;
-  }
-  #footer .box .content .bot-button a {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 1200px) {
-  #footer .box .content span {
+  #footer .box .wpforms-validate .wpforms-field-label {
     font-size: 14px;
   }
 }
@@ -326,7 +355,7 @@ span {
     position: unset;
     height: auto;
   }
-  #footer .box .content {
+  #footer .box .wpforms-validate {
     padding: 75px 12.5%;
   }
   #footer .top {
@@ -353,7 +382,7 @@ span {
   #footer li {
     text-align: center;
   }
-  #footer .box .content {
+  #footer .box .wpforms-validate {
     padding: 75px 10%;
   }
   #footer .top {
@@ -387,16 +416,22 @@ span {
     width: 100%;
   }
 }
-.button {
+.button, button {
   background: linear-gradient(91.75deg, #fbc78d 0%, #f9e2ae 100%);
   border-radius: 80px;
   padding: 10px 45px;
-}
-.button a {
-  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Nunito";
+  font-weight: 300;
+  color: #003636;
+  letter-spacing: 2px;
 }
 
-input, textarea {
+input, textarea, #contact .left input {
+  max-width: 100%;
   height: 55px;
   border: 1px solid #003636;
   background: none;
@@ -406,6 +441,7 @@ input, textarea {
   color: rgba(0, 54, 54, 0.6);
   padding-left: 10px;
   outline: none;
+  border-radius: 0;
 }
 
 #navigation {
@@ -447,6 +483,8 @@ input, textarea {
 }
 #navigation #mySidenav {
   width: 0;
+  position: fixed;
+  overflow: hidden;
 }
 #navigation span {
   display: none;
@@ -475,23 +513,22 @@ input, textarea {
   }
 }
 @media only screen and (max-width: 1024px) {
-  #navigation {
-    justify-content: flex-end;
-  }
   #navigation .logo {
     display: none;
   }
   #navigation ul {
     margin-right: 0;
     width: 100%;
-    justify-content: space-between
+    justify-content: space-between;
   }
   #navigation ul li {
     margin: 0 18px;
   }
 }
 @media only screen and (max-width: 800px) {
-  
+  #navigation .logo {
+    display: flex;
+  }
   #navigation ul {
     display: none;
   }
@@ -707,11 +744,6 @@ input, textarea {
   display: flex;
   position: relative;
 }
-.singlepost .top .image img {
-  object-fit: cover;
-  width: 500px;
-  height: 500px;
-}
 .singlepost .top .image .back {
   display: flex;
   width: 100%;
@@ -784,7 +816,6 @@ input, textarea {
   }
 
   .singlepost .top .image img {
-    width: 350px;
     height: 350px;
   }
   .singlepost .top .image .back {
@@ -888,8 +919,6 @@ input, textarea {
   }
 
   .singlepost .top .image img {
-    
-    width: 300px;
     height: 300px;
   }
 }
@@ -909,7 +938,6 @@ input, textarea {
 
   .singlepost .top .image img {
     height: 275px;
-    width: 275px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -935,7 +963,6 @@ input, textarea {
 
   .singlepost .top .image img {
     height: 250px;
-    width: 250px;
   }
 }
 #content {
@@ -1003,8 +1030,10 @@ input, textarea {
   width: 50%;
   margin-right: 50px;
 }
-#contact .left span {
+#contact .left .wpforms-field-label {
   margin-bottom: 15px;
+  font-weight: 1;
+  font-size: 18px;
 }
 #contact .left input {
   height: 45px;
@@ -1013,12 +1042,30 @@ input, textarea {
 #contact .left textarea {
   margin-bottom: 15px;
   resize: none;
-  height: 40%;
+  border: 1px solid #003636;
+  background: none;
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(0, 54, 54, 0.6);
+  padding-left: 10px;
+  outline: none;
+  border-radius: 0;
 }
 #contact .left .button {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  background: linear-gradient(91.75deg, #fbc78d 0%, #f9e2ae 100%);
+  border-radius: 80px;
+  padding: 10px 45px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Nunito";
+  font-weight: 300;
+  color: #003636;
+  letter-spacing: 2px;
+  border: none;
 }
 #contact .right {
   display: flex;
@@ -1065,6 +1112,7 @@ input, textarea {
   #contact .right .back {
     top: 7px;
     left: 7px;
+    height: 400px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -1081,6 +1129,9 @@ input, textarea {
   #contact .right img {
     width: 100%;
     height: auto;
+  }
+  #contact .right .back {
+    height: 100%;
   }
 
   #content {

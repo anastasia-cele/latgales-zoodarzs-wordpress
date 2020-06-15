@@ -1,14 +1,6 @@
 <!--Footer-->
 <div id="footer">
-    <div class="box">
-        <div class="content">
-            <span>Piesakies Latgales Zoodārza jaunumiem:</span>
-            <input type="email" name="email" id="email" placeholder="E-pasts">
-            <div class="bot-button">
-                <a href="" type=”submit”>pieteikties</a>
-            </div>
-        </div>
-    </div>
+ <?php echo do_shortcode('[wpforms id="447" title="false" description="false"]'); ?>
     <div class="top">
         <span>Par mums</span>
         <p>Latgales Zoodārzs ir neliels municipāls zoodārzs, Daugavpils pilsētas Domes budžeta iestāde.</p>

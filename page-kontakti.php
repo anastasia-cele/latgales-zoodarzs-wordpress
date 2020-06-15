@@ -66,17 +66,7 @@
 </div>
 
 <div id="contact">
-    <div class="left">
-        <span>Vārds</span>
-        <input type="text" name="name" id="name">
-        <span>E-pasts</span>
-        <input type="email" name="email" id="email">
-        <span>Ziņa</span>
-        <textarea id="zina"></textarea>
-        <div class="button">
-            <a href="" type=”submit”>sūtīt</a>
-        </div>
-    </div>
+<?php echo do_shortcode( '[wpforms id="446" title="false" description="false"]' ); ?>
     <div class="right">
         <img src="../wp-content/themes/latgales-zoodarzs/public/img/map.png" alt="">
          <div class="back"></div>

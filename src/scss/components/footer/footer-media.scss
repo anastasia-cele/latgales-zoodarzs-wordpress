@@ -25,9 +25,9 @@
         }
         .box {
             height: 350px;
-            .content {
-                padding: 105px 70px;
-                span {
+            .wpforms-validate {
+                padding: 0 70px;
+                .wpforms-field-label {
                     font-size: 16px;
                     margin-bottom: 20px;
                 }
@@ -35,12 +35,10 @@
                     height: 40px;
                     font-size: 16px;
                 }
-                .bot-button {
+                button {
                     height: 42px;
                     margin-top: 10px;
-                    a {
-                        font-size: 16px;
-                    }
+                    font-size: 16px;
                 }
             }
         }
@@ -50,8 +48,8 @@
 @media only screen and (max-width: 1200px) {
     #footer {
         .box {
-            .content {
-                span {
+            .wpforms-validate {
+                .wpforms-field-label {
                     font-size: 14px;
                 }
             }
@@ -71,7 +69,7 @@
             position: unset;
             height: auto;
 
-            .content {
+            .wpforms-validate {
                 padding: 75px 12.5%;
             }
         }
@@ -106,7 +104,7 @@
             text-align: center;
         }
         .box {
-            .content {
+            .wpforms-validate {
                 padding: 75px 10%;
             }
         }

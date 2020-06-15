@@ -41,6 +41,8 @@
 
     #mySidenav {
         width: 0;
+        position: fixed;
+        overflow: hidden;
     }
     span {
         display: none;
